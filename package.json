@@ -1,5 +1,5 @@
 {
-  "name": "@ittikorns/bscscan-api",
+  "name": "bscscan-api",
   "version": "1.0.0",
   "description": "API to etherscan with a simple interface",
   "main": "index.js",
