@@ -1,6 +1,6 @@
 {
   "name": "ftmscan-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "API to etherscan with a simple interface",
   "main": "index.js",
   "scripts": {
