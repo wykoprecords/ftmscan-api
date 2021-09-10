@@ -1,6 +1,6 @@
 {
-  "name": "bscscan-api",
-  "version": "1.0.1",
+  "name": "ftmscan-api",
+  "version": "1.0.2",
   "description": "API to etherscan with a simple interface",
   "main": "index.js",
   "scripts": {
@@ -11,15 +11,12 @@
     "bundle": "browserify index.js -s etherscanApi -o dist/bundle.js && git commit ./dist -m bundle && git push",
     "preversion": "npm run lint && npm run changelog",
     "postversion": "git push && git push --tags",
-    "changelog": "rm ./docs/CHANGELOG.md && changelog https://github.com/sebs/bscscan-api all > ./docs/CHANGELOG.md && git add ./docs/CHANGELOG.md && git commit ./docs/CHANGELOG.md -m changelog",
+    "changelog": "rm ./docs/CHANGELOG.md && changelog https://github.com/sebs/ftmscan-api all > ./docs/CHANGELOG.md && git add ./docs/CHANGELOG.md && git commit ./docs/CHANGELOG.md -m changelog",
     "build": "npm run test && npm run docs"
   },
   "keywords": [
-    "binance",
-    "bsc",
-    "binance smart chain",
-    "BscScan.com",
-    "bscscna",
+    "fantom",
+    "ftm",
     "blockchain",
     "api",
     "transaction",
@@ -27,14 +24,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ittikorns/bscscan-api.git"
+    "url": "git+https://github.com/wykoprecords/ftmscan-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ittikorns/bscscan-api/issues"
+    "url": "https://github.com/wykoprecords/ftmscan-api/issues"
   },
-  "homepage": "https://github.com/ittikorns/bscscan-api#readme",
+  "homepage": "https://github.com/wykoprecords/ftmscan-api#readme",
   "devDependencies": {
     "browserify": "^16.5.0",
     "chai": "^4.2.0",
